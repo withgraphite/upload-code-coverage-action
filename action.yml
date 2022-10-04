@@ -27,4 +27,4 @@ branding:
   icon: "bar-chart"
 runs:
   using: "node16"
-  main: "./lib/main.js"
+  main: "./dist/src/index.js"
