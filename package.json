@@ -1,0 +1,30 @@
+{
+  "name": "@withgraphite/upload-code-coverage-action",
+  "version": "0.0.1",
+  "license": "None",
+  "description": "Upload your code coverage to Graphite.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withgraphite/upload-code-coverage-action"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "@types/node-fetch": "2.5.7",
+    "node-fetch": "2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.1",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,30 @@
+# action.yml
+name: "Graphite Upload Code Coverage Action"
+description: "Coming soon."
+author: "Graphite.dev"
+inputs:
+  github-token:
+    description: "The github token."
+    required: true
+  repo:
+    description: "Override the branch name"
+    required: true
+  org:
+    description: "Override the commit sha"
+    required: true
+  sha:
+    description: "Override the commit sha"
+    required: true
+  path-to-lcov:
+    description: "Path to lcov file"
+    required: true
+    default: "./coverage/lcov.info"
+  base-path:
+    description: "The root folder of the project that originally ran the tests"
+    required: false
+branding:
+  color: "green"
+  icon: "bar-chart"
+runs:
+  using: "node16"
+  main: "./lib/main.js"

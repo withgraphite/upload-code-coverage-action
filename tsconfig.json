@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "incremental": true
+  },
+  "lib": [
+    "es2015"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "include": [
+    "src"
+  ]
+}
