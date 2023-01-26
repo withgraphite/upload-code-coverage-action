@@ -21,7 +21,7 @@
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.4",
     "@types/node-fetch": "2.5.7",
-    "node-fetch": "2.6.2"
+    "node-fetch": "2.6.7"
   },
   "devDependencies": {
     "@types/node": "^18.8.1",
